@@ -1,0 +1,17 @@
+# UMich GitLab
+Host gitlab
+	HostName gitlab.com
+	User git
+	IdentityFile ~/.ssh/kochfour_rsa
+
+# CAEN
+Host kf
+	HostName login.engin.umich.edu 
+	User kochfour
+	Compression yes
+
+# Home media server
+Host nas
+	HostName 10.180.239.64
+	User kochfour
+	IdentityFile ~/.ssh/id_rsa
